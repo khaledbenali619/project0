@@ -1,0 +1,46 @@
+body {
+  display: flex;
+}
+
+div.form {
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.button {
+  box-sizing: border-box;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 200px;
+  display: block;
+  align-items: center;
+  margin-left: -50%;
+  margin-right: auto;
+}
+.topcorner{
+  position:absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  top:10;
+  right:0;
+  margin: 10;
+ }
+
+ input[type= text]{
+  width: 170%;
+  height: 20px;
+  border-radius: 10px;
+ }
+  
+ input[type= submit]{
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  align-items: center;
+ } 
