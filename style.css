@@ -1,46 +1,67 @@
 body {
-  display: flex;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #202124;
+}
+.heading{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+nav a{
+  color:black;
+  margin: 20px;
+  text-decoration:none;
+}
+
+
+div.btn{
+  width: 500px;
+}
+
+input[type= text]{
+width: 500px;
+height: 40px;
+margin: 5px;
+border-radius: 25px;
+border: 2px solid rgb(228, 229, 238);
+}
+input[type= submit]{
+  height: 30px;
+  margin-top: 5px;
+  border:none;
+  color: #646464;
+  background: #f2f2f2;
+  border-radius: 5px;
+} 
+
+img{
+ width: 500px;
+ height: 150px;
 }
 
 div.form {
-    box-sizing: border-box;
-    max-width: 600px;
-    margin: auto;
-    margin-top: 200px;
-    display: block;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+text-align: center;
+align-items: center;
+position: absolute;
+top: 30%;
+left: 30%;
+right: 50%;
+margin: 0 auto;
 }
-div.button {
-  box-sizing: border-box;
-  max-width: 500px;
-  margin: auto;
-  margin-top: 200px;
-  display: block;
-  align-items: center;
-  margin-left: -50%;
-  margin-right: auto;
+nav a{
+  color:black;
+  margin: 20px;
+  text-decoration:none;
 }
-.topcorner{
-  position:absolute;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  top:10;
-  right:0;
-  margin: 10;
- }
+body{
+  margin:0px;
+}
+nav{
+  display: flex;
+  flex-flow: row-reverse;
+  background-color: rgba(211, 211, 211, 0.4);
+}
 
- input[type= text]{
-  width: 170%;
-  height: 20px;
-  border-radius: 10px;
- }
-  
- input[type= submit]{
-  width: 100%;
-  height: 30px;
-  border-radius: 10px;
-  align-items: center;
- } 
+nav a:hover{
+  color: rgb(25, 12, 214)
+}
